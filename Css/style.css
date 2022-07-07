@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --background:#125B50;
+}
+body{
+    background: var(--background);
+}
+.homepage{
+    margin: 5% 10% 0 15%;
+}
+.navBar{
+    top: 30px;
+}
+.navBar li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.navBarLnks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    padding: 16px 0;
+}
+.navBarLnks li:first-child{
+    padding-right: 158px;
+}
+
+
+.navBar ul li span a{
+    color: #F66B0E;
+}
+
+/* .active > a li{
+    color: brown;
+} */
+.middle{
+    padding-right: 100px;
+    align-items: center;
+}
+
+
+/* home page */
+.texts{
+    position: absolute;
+    top: 199px;
+    left: 251px;
+    width: 113px;
+    height: 32px;
+}
+.texts p{
+    top: 199px;
+    left: 251px;
+    width: 113px;
+    height: 32px;
+    font: normal normal normal 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #EFEFEF;
+}
+.h1{
+    top: 0px;
+    left: 2px;
+    width: 306px;
+    height: 89px;
+    text-align: left;
+    font: normal normal normal 67px/89px Malgun Gothic;
+    letter-spacing: 0px;
+}
+.h3{
+    top: 324px;
+    left: 200px;
+    width: 216px;
+    height: 40px;
+    text-align: left;
+    font: normal normal normal 30px/40px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #EFEFEF;
+}
+.h6{
+    top: 0px;
+    left: 215px;
+    width: 452px;
+    height: 81px;
+    text-align: left;
+    font: normal normal normal 20px/27px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #EFEFEF;
+}
+
+.main{
+    margin-top: -400px;
+    margin-left: 383px;
+    width: 586px;
+    height: 571px;
+    background: transparent url('img/kioli 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.button{
+    padding: 0;
+    top: 500px;
+    /* left: 293px; */
+    width: -70px;
+    text-align: left;
+    font: normal normal normal 20px/27px Leelawadee UI;
+    letter-spacing: 0px;
+    background-color: #570C0C;
+    border-radius: 30px; 
+    border-style: none;
+}
+.line{
+    height: 6px;
+    width: 9rem;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #F66B0E;
+}
+/* About Me */
+.aboutpage{
+    margin: 5% 10% 0 15%;
+}
+.about{
+    top: 100px;
+    left: 220px;
+    width: 149px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 25px/33px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #F66B0E;
+}
+.text{
+    position: absolute;
+    top: 298px;
+    left: 260px;
+    width: 514px;
+    height: 132px;
+}
+h1{
+    position: relative;
+    color: #F66B0E;
+}
+.text .p1{
+    top: 298px;
+    left: 260px;
+    width: 514px;
+    height: 132px;
+    /* text-align: left; */
+    font: normal normal normal 20px/26px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #F1F2ED;
+}
+h6{
+    text-align: left;
+    font: normal normal normal 20px/26px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #F4F6ED;
+}
+.svg{
+    margin-left: 600px;
+} 
+.svg img{
+    width: 420px;
+    height: 420px;
+}
+/*service page*/
+.servicepage{
+    margin: 5% 10% 0 15%;
+}
+.p2{
+    top: 183px;
+    left: 293px;
+    width: 380px;
+    height: 27px;
+    text-align: left;
+    font: normal normal normal 20px/15px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #EFEFEF;
+}
+.p3{
+    margin-top: 84px;
+    margin-left: 304px;
+    width: 536px;
+    height: 170px;
+    text-align: left;
+    font: normal normal normal 26px/34px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #F4F6ED;
+    opacity: 1;
+}
+.adobe{
+    display: flex;
+}
+.xd{
+    margin-bottom: 724px;
+    left: 314px;
+    width: 31px;
+    height: 30px;
+    opacity: 1;
+}
+.ps{
+    /* margin-top: 67px; */
+    left: 316px;
+    width: 30px;
+    height: 29px;
+    opacity: 1;
+}
+.ai{
+    margin-top: 459px;
+    left: 314px;
+    width: 29px;
+    height: 28px;
+    opacity: 1;
+    
+}
+.figma{
+    top: 571px;
+    left: 319px;
+    width: 11px;
+    height: 11px;
+    opacity: 1;
+}
+.indesign{
+    top: 635px;
+    left: 316px;
+    width: 27px;
+    height: 27px;
+    opacity: 1;
+}
+/*project page*/
+.projectpage{
+    margin: 5% 10% 0 15%;
+}
+.img1{
+    position: absolute;
+    top: 174px;
+    left: 139px;
+    width: 336px;
+    height: 447px;
+    background: transparent url('img/Army got talent.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+} 
+.img2{
+    position: absolute;
+    top: 174px;
+    left: 491px;
+    width: 316px;
+    height: 421px;
+    background: transparent url('img/poster 4.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.img3{
+    position: absolute;
+    top: 174px;
+    left: 875px;
+    width: 316px;
+    height: 422px;
+    background: transparent url('img/poster 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.img4{
+      position: absolute;
+    top: 676px;
+    left: 139px;
+    width: 416px;
+    height: 294px;
+    background: transparent url('img/Sweater_Mockup_Front_and_Back.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.img5{
+      position: absolute;
+    top: 676px;
+    left: 583px;
+    width: 283px;
+    height: 380px;
+    background: transparent url('img/T shirt brand.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.img6{
+      position: absolute;
+    top: 676px;
+    left: 898px;
+    width: 329px;
+    height: 306px;
+    background: transparent url('img/telenovela.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.img7{
+      position: absolute;
+    top: 1201px;
+    left: 139px;
+    width: 292px;
+    height: 395px;
+    background: transparent url('img/poster 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.img8{
+      position: absolute;
+    top: 1201px;
+    left: 491px;
+    width: 308px;
+    height: 410px;
+    background: transparent url('img/poster 3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.img9{
+      position: absolute;
+    top: 1201px;
+    left: 875px;
+    width: 306px;
+    height: 409px;
+    /* background: transparent url('img/microsoft.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+/*contact page*/
+.contactpage{
+    margin: 5% 10% 0 15%;
+}
+.mixed{
+    top: 60px;
+    left: 402px;
+    width: 206px;
+    height: 40px;
+    text-align: left;
+    font: normal normal normal 30px/20px Malgun Gothic;
+    letter-spacing: 0px;
+    color: white;
+}
+.mixedx{
+    top: 30px;
+    left: 505px;
+    width: 206px;
+    height: 40px;
+    text-align: left;
+    font: normal normal normal 30px/0px Malgun Gothic;
+    letter-spacing: 0px;
+}
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    margin-left: 270px;
+}
+.heading {
+    margin: 30px 0 80px;
+    /* text-align: center; */
+    font-size: 2em;
+}
+.form__group {
+    position: relative;
+    border-bottom: 1px solid ;
+    margin-bottom: 40px;
+}
+
